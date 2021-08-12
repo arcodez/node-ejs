@@ -8,11 +8,10 @@ router.get("/", (req, res) => {
 router.get("/portfolio-details", (req, res) => {
   res.render("pages/portfolio-details");
 });
-  
+
 router.get("/blog", (req,res) => {
   res.render("pages/blog")
 })
-
 
 router.get("/blog-single", (req,res) => {
   res.render("pages/blog-single")
